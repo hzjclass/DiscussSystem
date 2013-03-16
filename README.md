@@ -1,4 +1,4 @@
 DiscussSystem
 =============
 
-A Discuss System for HZJ Class.
+A Discuss System for HZJ Class..
