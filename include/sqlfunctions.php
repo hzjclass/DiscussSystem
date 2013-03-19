@@ -1,0 +1,1 @@
+<?php# Discuss System SQL Functions Files# 2013.3.16if(!defined('SAFE_INCLUDE'))die('Hacking attempt!');?>

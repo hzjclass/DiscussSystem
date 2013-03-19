@@ -1,0 +1,1 @@
+<?php# Discuss System Main Include Files# 2013.3.16# Use "require "include/incfunctions.php".define('SAFE_INCLUDE', true);$rootpath=realpath(dirname(__FILE__) . '/..');include_once($rootpath . 'include/sqlfunctions.php'); //include functions?>
