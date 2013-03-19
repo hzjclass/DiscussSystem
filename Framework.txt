@@ -1,0 +1,49 @@
+Hi all,
+
+Here is the framework of our mini project.
+Please update this if it's necessary.
+
+1. General
+	- Folders' Setting
+		/image - All images should be stored at here.
+		/include - All PHP Files which needn't to access directly should put here.
+		/sytle - All css/js should be stored at here.
+	
+2. Some functions
+	- MySQL
+		sql_query(QUERY) - exec a query in database.
+		sql_esc(VARS) - to make the varibles safety in querying database.
+		* If you want to do some database operations, please include incfunctions.php and execute dbconn() before operations.
+	
+3. SQL Structures
+	CREATE TABLE user (
+		uid integer primary key auto increment,
+		u_name varchar(128) NOT NULL,
+		u_passwd varchar(128),
+		u_nickname varchar(128)
+	);
+	CREATE TABLE course(
+		cid integer primary key auto increment,
+		c_name varchar(128) NOT NULL,
+		c_intro text,                    //介绍
+		c_group varchar(128),			 //负责的小组
+		c_avg_score integer
+	)
+	CREATE TABLE admin(
+		aid integer primary key auto increment,
+		a_name varchar(128),
+		a_passwd varchar(128)
+	)
+	CREATE TABLE course_score(
+		c_name varchar(128) NOT NULL,
+		c_score integer,
+	)
+	CREATE TABLE course_comment(
+		c_course varchar(128) NOT NULL,
+		c_comment text,
+		u_name varchar(128) NOT NULL
+	)
+	
+
+
+
