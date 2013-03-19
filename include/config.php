@@ -1,1 +1,1 @@
-<?php# Discuss System Config Files# 2013.3.16?>
+<?php# Discuss System Config Files# 2013.3.16if(!defined('SAFE_INCLUDE'))die('Hacking attempt!');$mysql_host = "";$mysql_user = "";$mysql_pass = "";$mysql_db = "";?>
