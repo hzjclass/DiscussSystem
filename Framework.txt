@@ -16,15 +16,16 @@ Please update this if it's necessary.
 		* If you want to do some database operations, please include incfunctions.php and execute dbconn() before operations.
 	
 3. SQL Structures
+	please delete the comment when exec following SQL
 	CREATE TABLE user (
-		uid integer primary key auto increment,
+		uid integer primary key auto_increment,
 		u_name varchar(128) NOT NULL,
 		u_passwd varchar(128),
 		u_nickname varchar(128),
 		u_auth varchar(128)              // 分为common， groupleader, admin
 	);
 	CREATE TABLE course(
-		cid integer primary key auto increment,
+		cid integer primary key auto_increment,
 		c_name varchar(128) NOT NULL,
 		c_intro text,                    //介绍
 		c_group varchar(128),			 //负责的小组
@@ -32,13 +33,14 @@ Please update this if it's necessary.
 	)
 	CREATE TABLE course_score(
 		c_name varchar(128) NOT NULL,
-		c_score integer,
+		c_score integer
 	)
 	CREATE TABLE course_comment(
 		c_course varchar(128) NOT NULL,
 		c_comment text,
 		u_name varchar(128) NOT NULL
 	)
+	
 	
 
 
