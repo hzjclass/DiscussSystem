@@ -20,7 +20,8 @@ Please update this if it's necessary.
 		uid integer primary key auto increment,
 		u_name varchar(128) NOT NULL,
 		u_passwd varchar(128),
-		u_nickname varchar(128)
+		u_nickname varchar(128),
+		u_auth varchar(128)              // 分为common， groupleader, admin
 	);
 	CREATE TABLE course(
 		cid integer primary key auto increment,
@@ -28,11 +29,6 @@ Please update this if it's necessary.
 		c_intro text,                    //介绍
 		c_group varchar(128),			 //负责的小组
 		c_avg_score integer
-	)
-	CREATE TABLE admin(
-		aid integer primary key auto increment,
-		a_name varchar(128),
-		a_passwd varchar(128)
 	)
 	CREATE TABLE course_score(
 		c_name varchar(128) NOT NULL,
