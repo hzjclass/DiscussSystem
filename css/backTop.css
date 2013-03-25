@@ -1,0 +1,21 @@
+.backToTop {
+	 display: none;
+	 position: fixed;
+	 _position: absolute;
+	 right: 4%;
+	 bottom: 5%;
+	 cursor: pointer;
+}
+
+.finput {
+	border-radius: 5px;
+	border-style: none;
+}
+
+label,span {
+	font-family: ËÎÌו
+}
+
+div {
+	font-family: Times New Roman
+}

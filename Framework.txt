@@ -29,6 +29,7 @@ Please update this if it's necessary.
 		c_name varchar(128) NOT NULL,
 		c_intro text,                    //介绍
 		c_group varchar(128),			 //负责的小组
+		c_date date, 					 //开讲的时间
 		c_avg_score integer
 	)
 	CREATE TABLE course_score(
