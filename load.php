@@ -3,7 +3,7 @@
 // include incfunctions, sqlfunctions, config
 //
 /////////////////////////////////////////////////////
-define( 'ABSPATH', dirname(__FILE__) . '/' );
+
 
 if(file_exists(ABSPATH."include/incfunctions.php")){
 	//include the filter
